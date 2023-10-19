@@ -1,0 +1,31 @@
+.input-spacing{
+    margin: 1rem;
+}
+
+.form-grid-format{
+    display: grid;
+    align-items: center;
+    grid-template-columns: .4fr 1fr;
+    row-gap: .5rem;
+}
+
+.button-center{
+    text-align: center;
+    padding: .25 rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 4rem;
+    grid-column: span 2;
+}
+
+.align-text{
+    justify-self: flex-end;
+}
+
+.input-reformat{
+    width: calc(100% - 2rem);
+}
+
+.stretch-grid{
+    grid-column: span 2;
+}
